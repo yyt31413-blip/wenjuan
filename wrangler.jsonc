@@ -1,19 +1,27 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "desktop-order-survey",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-10-19",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "desktop-order-survey",
-      // Local placeholder. Replace during the later deployment step.
-      "database_id": "00000000-0000-0000-0000-000000000000",
-      "migrations_dir": "migrations",
-      "remote": false,
-    },
-  ],
-  "vars": { "APP_ORIGIN": "http://localhost:3000", "INTERVIEW_REGISTRATION_URL": "" },
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "desktop-order-survey",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-10-19",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "desktop-order-survey",
+			"database_id": "a6fd3548-02c9-4de4-8b46-44cf7917bb59",
+			"preview_database_id": "00000000-0000-0000-0000-000000000000",
+			"migrations_dir": "migrations",
+			"remote": false,
+		},
+	],
+	"vars": {
+		"APP_ORIGIN": "http://localhost:3000",
+		"INTERVIEW_REGISTRATION_URL": ""
+	},
 }

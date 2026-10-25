@@ -1,6 +1,6 @@
 # 日常桌面使用与整理习惯问卷
 
-现有项目已改为 **Next.js + OpenNext + Cloudflare Workers + D1**。问卷、管理员后台、计分和 PNG 图表导出保留。当前已完成本地开发和验证，源码已上传 GitHub；线上 D1 和正式发布尚未配置。
+现有项目已改为 **Next.js + OpenNext + Cloudflare Workers + D1**。问卷、管理员后台、计分和 PNG 图表导出保留。当前已完成本地验证与 GitHub 源码上传，线上 D1 已创建并完成初始建表；Worker 尚未部署。
 
 ## 1. 首次本地运行
 
@@ -54,7 +54,7 @@ D1 是数据库；GitHub 只保存程序源码。项目通过名为 `DB` 的服�
 
 | 配置                         | 本地位置                                   | 正式上线时                          |
 | ---------------------------- | ------------------------------------------ | ----------------------------------- |
-| `DB`                         | wrangler.jsonc 的本地绑定                  | 换成账户内真实 D1 数据库 ID         |
+| `DB`                         | wrangler.jsonc 的本地绑定                  | 已填写账户内真实 D1 数据库 ID       |
 | `APP_ORIGIN`                 | wrangler.jsonc，默认 http://localhost:3000 | 改成实际 HTTPS 来源，不带路径       |
 | `INTERVIEW_REGISTRATION_URL` | wrangler.jsonc，可留空                     | 独立、自愿登记表的 HTTPS 链接       |
 | `ADMIN_EMAIL`                | .dev.vars                                  | Worker 服务端配置或 Secret          |
@@ -63,7 +63,7 @@ D1 是数据库；GitHub 只保存程序源码。项目通过名为 `DB` 的服�
 
 SESSION_SECRET 是给会话令牌计算摘要的服务端密钥，和管理员登录密码用途不同。不能添加 NEXT_PUBLIC_ 前缀，也不能写入网页、GitHub 文件或截图。当前本地密钥仅供本机验证，正式上线应重新生成。
 
-`wrangler.jsonc` 中全零的 database_id 是明确的本地占位符，**不是线上数据库**。当前配置保留 `remote: false`，防止开发时误用线上 D1。将来正式部署时需要配置真实资源并执行远程迁移；本阶段未执行。
+线上 D1 数据库 `desktop-order-survey` 已在 APAC 区域创建，`0001_initial.sql` 已应用到远程数据库。`wrangler.jsonc` 已填入真实数据库 ID，并以 `preview_database_id` 保留原有本地测试库、以 `remote: false` 保持本地开发隔离。远程答卷表目前为空，尚未部署 Worker。
 
 ## 4. 本地验证
 
@@ -116,9 +116,9 @@ npm run test:e2e:worker
 - PNG 来源是当前经过管理员接口取得的真实数据快照；如有新增回答，先刷新再导出。
 - 不带个人信息的空数据库会显示0，生产代码没有演示答卷。大量长期数据的完整时间分布可能超过浏览器 Canvas 尺寸上限，届时使用独立图表导出；不截断图片内容。
 
-## 7. 后续上线（尚未执行）
+## 7. 后续上线（Worker 尚未部署）
 
-经用户确认后，后续需创建正式 D1、运行正式迁移、关联 Cloudflare Workers 与 GitHub 仓库、设置 Secrets 和 HTTPS 来源，然后验收发布地址。当前源码不能作为纯静态站点发布，因为保存、权限和数据读取都需要 Worker。
+经用户确认后，后续需关联 Cloudflare Workers 与 GitHub 仓库、设置 Secrets 和 HTTPS 来源，然后验收发布地址。当前源码不能作为纯静态站点发布，因为保存、权限和数据读取都需要 Worker。
 
 当前保留 Next.js，使用 OpenNext 适配 Workers；所有统计接口不缓存。没有使用 R2 缓存或外部数据库。此项目也没有把原先 Supabase 的线上历史数据自动导入 D1；当前未连接任何 Supabase 线上项目。
 
