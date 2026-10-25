@@ -1,0 +1,5 @@
+# Run npm run setup:local to generate private local credentials automatically.
+# Real values belong in .dev.vars (gitignored), never in this example.
+ADMIN_EMAIL=
+ADMIN_PASSWORD_HASH=
+SESSION_SECRET=

@@ -1,0 +1,1344 @@
+{
+  "title": "日常桌面使用与整理习惯问卷",
+  "intro": [
+    "本问卷了解人们怎样使用、摆放和评价桌面。没有正确答案，请按自己的真实经历回答。",
+    "参与自愿，可以随时停止填写。问卷主体不要求姓名或联系方式；结果用于毕业设计研究，公开展示采用汇总信息或匿名编号。如愿意参加后续访谈，联系方式将另行自愿登记。"
+  ],
+  "behaviorHint": "根据最近一个月最常使用的桌面时的实际行为、想法和感受作答。",
+  "closing": "感谢参与。愿意参加后续活动者，将通过独立登记方式留下联系方式。",
+  "photoSha256": "961e6c2b64f444c84a3e9a2c908e9b961cfc344c19b1ec0792b8741b094848bf",
+  "questions": [
+    {
+      "id": "A01",
+      "title": "您是否理解上述说明，并自愿参加本次调查？",
+      "section": "参与者背景",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "是，我愿意参加"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "A02",
+      "title": "您的年龄？",
+      "section": "参与者背景",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "18岁以下"
+        },
+        {
+          "value": "B",
+          "label": "18-30岁"
+        },
+        {
+          "value": "C",
+          "label": "31岁及以上"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "A03",
+      "title": "最近一个月，您平均每周有几天会使用桌面进行学习、工作或其他活动？",
+      "section": "参与者背景",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "1—2天"
+        },
+        {
+          "value": "B",
+          "label": "3—4天"
+        },
+        {
+          "value": "C",
+          "label": "5天及以上"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "A04",
+      "title": "请选定最近一个月最常使用的一张桌面。它主要用于什么？（单选）",
+      "section": "参与者背景",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "学习"
+        },
+        {
+          "value": "B",
+          "label": "工作"
+        },
+        {
+          "value": "C",
+          "label": "兴趣活动或手工创作"
+        },
+        {
+          "value": "D",
+          "label": "多种用途，难以区分"
+        },
+        {
+          "value": "E",
+          "label": "其他：____________"
+        }
+      ],
+      "otherValue": "E",
+      "required": true
+    },
+    {
+      "id": "A05",
+      "title": "最近一个月，哪些条件限制了您按自己的想法摆放这张桌面？（可多选）",
+      "section": "参与者背景",
+      "multiple": true,
+      "options": [
+        {
+          "value": "A",
+          "label": "桌面空间有限"
+        },
+        {
+          "value": "B",
+          "label": "需要与他人共用"
+        },
+        {
+          "value": "C",
+          "label": "需要遵守外部规定"
+        },
+        {
+          "value": "D",
+          "label": "时间或精力有限"
+        },
+        {
+          "value": "E",
+          "label": "其他：____________"
+        },
+        {
+          "value": "F",
+          "label": "没有明显限制（不与其他项同时选择）"
+        }
+      ],
+      "otherValue": "E",
+      "exclusiveValue": "F",
+      "required": true
+    },
+    {
+      "id": "B01",
+      "title": "我会调整物品的边缘，让它们在视觉上对齐。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B02",
+      "title": "我会让经常使用的物品更容易拿到。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B03",
+      "title": "我会把同类物品集中放在同一区域。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B04",
+      "title": "我通常依靠自己熟悉的位置来找物品。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B05",
+      "title": "任务还没做完时，我能接受用过的物品暂时没有归位。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B06",
+      "title": "平时，我很少留意桌面物品是否摆得有条理。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B07",
+      "title": "我会给不同类别的物品安排各自的存放区域。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B08",
+      "title": "寻找物品时，我会回想上次使用它的过程，来确定它的位置。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B09",
+      "title": "评价一张桌面时，我通常没有特别在意的摆放标准。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B10",
+      "title": "物品之间的间距不一致时，我会想把它们调得更均匀。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B11",
+      "title": "在使用过程中，桌面暂时偏离原来的摆放状态，我通常也能接受。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B12",
+      "title": "摆放物品时，我会考虑做事的先后顺序。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B13",
+      "title": "只要知道之后如何处理，我能接受桌面短时间内没有清楚的排列规则。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B14",
+      "title": "我会调整物品的位置，让取用时少挪开或绕过其他东西。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B15",
+      "title": "即使不影响使用，物品朝向不一致也会让我想调整。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B16",
+      "title": "即使有时间，我也很少专门考虑桌面该怎样布置。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B17",
+      "title": "在同样方便使用的摆法中，我会优先选自己熟悉的那一种。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B18",
+      "title": "新增物品时，我会先考虑它应归入哪一类。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B19",
+      "title": "我会通过自己熟悉的位置关系记住物品，例如“那件东西一直放在某本书旁边”。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B20",
+      "title": "同一类别的物品分散在不同地方，会让我想把它们归到一起。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B21",
+      "title": "开始一项任务前，我会把这项任务要用的物品移到便于操作的位置。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B22",
+      "title": "同一张桌面用于不同任务时，我会相应调整物品的位置。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B23",
+      "title": "做事情时，我通常不会把桌面是否有序作为需要关注的一件事。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B24",
+      "title": "判断桌面是否有条理时，我会注意物品是否呈现重复的排列方式，例如几排物品采用相同的间距或朝向。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B25",
+      "title": "判断一种摆放方式是否合适时，我会考虑它是否方便完成当前任务。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B26",
+      "title": "完成一个阶段的任务后，我会重新安排桌面，为下一阶段作准备。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B27",
+      "title": "整理后，我会检查不同类别的物品是否放在对应的区域。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B28",
+      "title": "收拾桌面后，我会从整体看一下摆放是否规整。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B29",
+      "title": "一种摆放方式只要符合我记忆物品的方法，我通常愿意继续沿用。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "B30",
+      "title": "我会根据工作或学习的进度，改变哪些物品留在桌面上。",
+      "section": "日常使用中的实际表现",
+      "multiple": false,
+      "options": [
+        {
+          "value": "1",
+          "label": "完全不符合"
+        },
+        {
+          "value": "2",
+          "label": "较不符合"
+        },
+        {
+          "value": "3",
+          "label": "部分符合"
+        },
+        {
+          "value": "4",
+          "label": "较符合"
+        },
+        {
+          "value": "5",
+          "label": "完全符合"
+        },
+        {
+          "value": "X",
+          "label": "难以判断或无相关经历"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "C01",
+      "title": "照片中的桌面整体给您什么感觉？【单选】",
+      "section": "主观判断",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "非常混乱"
+        },
+        {
+          "value": "B",
+          "label": "比较混乱"
+        },
+        {
+          "value": "C",
+          "label": "介于整齐与混乱之间"
+        },
+        {
+          "value": "D",
+          "label": "比较整齐"
+        },
+        {
+          "value": "E",
+          "label": "非常整齐"
+        },
+        {
+          "value": "F",
+          "label": "仅凭照片无法判断"
+        }
+      ],
+      "image": "/images/image1.png",
+      "required": true
+    },
+    {
+      "id": "C02",
+      "title": "您判断桌面是否整齐时，主要考虑哪些因素？【多选，最多选3项】",
+      "section": "主观判断",
+      "multiple": true,
+      "options": [
+        {
+          "value": "A",
+          "label": "物品是否对齐，间距和朝向是否有规律"
+        },
+        {
+          "value": "B",
+          "label": "同类物品是否集中，不同类别是否区分清楚"
+        },
+        {
+          "value": "C",
+          "label": "物品是否容易找到和取用，是否方便完成任务"
+        },
+        {
+          "value": "D",
+          "label": "摆放是否符合使用者熟悉的位置和个人习惯"
+        },
+        {
+          "value": "E",
+          "label": "摆放是否符合当前任务阶段，包括临时摊开或暂不归位"
+        },
+        {
+          "value": "F",
+          "label": "桌面是否有足够的空白，物品是否过于拥挤"
+        },
+        {
+          "value": "G",
+          "label": "桌面是否干净，有无污渍或垃圾"
+        },
+        {
+          "value": "H",
+          "label": "其他：________"
+        }
+      ],
+      "otherValue": "H",
+      "maxChoices": 3,
+      "required": true
+    },
+    {
+      "id": "C03",
+      "title": "在上一题选择的因素中，您最看重哪一项？【单选】",
+      "section": "主观判断",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "物品是否对齐，间距和朝向是否有规律"
+        },
+        {
+          "value": "B",
+          "label": "同类物品是否集中，不同类别是否区分清楚"
+        },
+        {
+          "value": "C",
+          "label": "物品是否容易找到和取用，是否方便完成任务"
+        },
+        {
+          "value": "D",
+          "label": "摆放是否符合使用者熟悉的位置和个人习惯"
+        },
+        {
+          "value": "E",
+          "label": "摆放是否符合当前任务阶段，包括临时摊开或暂不归位"
+        },
+        {
+          "value": "F",
+          "label": "桌面是否有足够的空白，物品是否过于拥挤"
+        },
+        {
+          "value": "G",
+          "label": "桌面是否干净，有无污渍或垃圾"
+        },
+        {
+          "value": "H",
+          "label": "其他：________"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "C04",
+      "title": "您觉得下面哪种说法最符合自己的看法？【单选】",
+      "section": "主观判断",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "物品排列规整，即使使用不太方便，我通常也会觉得它整齐"
+        },
+        {
+          "value": "B",
+          "label": "物品容易找到和使用，即使排列不规整，我通常也会觉得它有条理"
+        },
+        {
+          "value": "C",
+          "label": "我会分别判断：它可能看起来整齐，但使用起来混乱；也可能相反"
+        },
+        {
+          "value": "D",
+          "label": "需要结合具体桌面和使用情境判断"
+        },
+        {
+          "value": "E",
+          "label": "暂时没有明确看法"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "C05",
+      "title": "日常使用桌面时，您主动留意物品摆放是否有条理的频率是？【单选】",
+      "section": "主观判断",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "几乎从不"
+        },
+        {
+          "value": "B",
+          "label": "很少"
+        },
+        {
+          "value": "C",
+          "label": "有时"
+        },
+        {
+          "value": "D",
+          "label": "经常"
+        },
+        {
+          "value": "E",
+          "label": "几乎每次都会"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "C06",
+      "title": "您是否遇到过以下情况？【多选】",
+      "section": "主观判断",
+      "multiple": true,
+      "options": [
+        {
+          "value": "A",
+          "label": "我觉得自己的桌面整齐，别人却觉得乱"
+        },
+        {
+          "value": "B",
+          "label": "别人觉得自己的桌面整齐，我却觉得乱"
+        },
+        {
+          "value": "C",
+          "label": "别人整理后觉得更整齐，我却觉得东西更难找"
+        },
+        {
+          "value": "D",
+          "label": "了解对方的摆放理由后，我改变了原先的评价"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "D01",
+      "title": "您是否愿意进一步了解深度访谈和桌面排列活动？（选答）",
+      "section": "后续参与",
+      "multiple": false,
+      "options": [
+        {
+          "value": "A",
+          "label": "愿意了解"
+        },
+        {
+          "value": "B",
+          "label": "暂不愿意"
+        },
+        {
+          "value": "C",
+          "label": "尚未决定"
+        }
+      ],
+      "required": false
+    }
+  ]
+}
