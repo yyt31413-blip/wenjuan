@@ -1,6 +1,6 @@
 # 日常桌面使用与整理习惯问卷
 
-现有项目已改为 **Next.js + OpenNext + Cloudflare Workers + D1**。问卷、管理员后台、计分和 PNG 图表导出保留。当前已完成本地开发和验证，源码尚待上传 GitHub；线上 D1 和正式发布尚未配置。
+现有项目已改为 **Next.js + OpenNext + Cloudflare Workers + D1**。问卷、管理员后台、计分和 PNG 图表导出保留。当前已完成本地开发和验证，源码已上传 GitHub；线上 D1 和正式发布尚未配置。
 
 ## 1. 首次本地运行
 
@@ -118,7 +118,7 @@ npm run test:e2e:worker
 
 ## 7. 后续上线（尚未执行）
 
-后续需先上传 GitHub；经用户确认后，再创建正式 D1、运行正式迁移、关联 Cloudflare Workers 与 GitHub 仓库、设置 Secrets 和 HTTPS 来源，然后验收发布地址。当前源码不能作为纯静态站点发布，因为保存、权限和数据读取都需要 Worker。
+经用户确认后，后续需创建正式 D1、运行正式迁移、关联 Cloudflare Workers 与 GitHub 仓库、设置 Secrets 和 HTTPS 来源，然后验收发布地址。当前源码不能作为纯静态站点发布，因为保存、权限和数据读取都需要 Worker。
 
 当前保留 Next.js，使用 OpenNext 适配 Workers；所有统计接口不缓存。没有使用 R2 缓存或外部数据库。此项目也没有把原先 Supabase 的线上历史数据自动导入 D1；当前未连接任何 Supabase 线上项目。
 
