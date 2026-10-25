@@ -9,8 +9,11 @@ coverage/
 artifacts/
 
 .open-next/
+dist/
 .wrangler/
 .dev.vars*
 !.dev.vars.example
 .local-tests/
 LOCAL-ADMIN.txt
+.prod-secrets
+PROD-ADMIN.txt

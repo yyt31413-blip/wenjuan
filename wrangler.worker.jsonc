@@ -1,0 +1,25 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "desktop-order-survey",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-10-19",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "desktop-order-survey",
+			"database_id": "a6fd3548-02c9-4de4-8b46-44cf7917bb59",
+			"migrations_dir": "migrations",
+		},
+	],
+	"vars": {
+		"APP_ORIGIN": "https://desktop-order-survey.yyt31413.workers.dev",
+		"INTERVIEW_REGISTRATION_URL": ""
+	},
+}
